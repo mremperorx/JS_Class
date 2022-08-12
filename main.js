@@ -1,14 +1,16 @@
-const brandname = "Mustang";
-const wheels = 4;
-const max_speed = 300;
-const in_on = false;
-const wheels_material = "aluminum";
-const countryoforigin = "USA";
+let name = "Majed El-Naser";
+var age  = 25;
+var Prof = "Web Development";
 
-const input = prompt("Scrie ceva")
+const hobbies = ["Coding", "Gaming", "Watching"];
+
+console.log (`Welcome to my first JavaScript Project.
+My name is ${name}
+I am ${age} years old 
+Im Trening as ${Prof}`)
+
+console.log(`My hobbies are : ${hobbies}`)
+
+let input = prompt('Who Are You ?');
 
 console.log(input)
-
-console.log(typeof input)
-
-const now = new Date();
