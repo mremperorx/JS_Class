@@ -16,11 +16,17 @@ console.log(`My hobbies are : ${hobbies}`);
 
    function TestAge() {
     var TestAge = Number(prompt("What is Your Age?"));
-
+    for(;true;){
     if (TestAge <= 0){
     alert("age is less than or equal to zero.");
+    TestAge = prompt("Enter Your Real Age.");
+    }
+    else 
+    {
+      break;
     }
    }
+  }
 
    function TestGender() {
     var TestGender = prompt ("What is Your Gender?");
